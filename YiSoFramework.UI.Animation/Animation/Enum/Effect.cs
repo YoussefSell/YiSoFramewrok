@@ -1,0 +1,72 @@
+﻿namespace YiSoFramework.Animation
+{
+    public enum _Effect
+    {
+        BottomAnchoredHeightEffect,
+        TopAnchoredHeightEffect,
+        LeftAnchoredWidthEffect,
+        RightAnchoredWidthEffect,
+        HorizontalFoldEffect,
+        VerticalFoldEffect,
+        XLocationEffect,
+        YLocationEffect,
+        ColorChannelShiftEffect,
+        ColorShiftEffect,
+        ControlFadeEffect,
+        FormFadeEffect,
+        FontSizeEffect,
+    }
+
+    public enum _Easing
+    {
+        Linear,
+        ExpoEaseOut,
+        ExpoEaseIn,
+        ExpoEaseInOut,
+        ExpoEaseOutIn,
+        CircEaseOut,
+        CircEaseIn,
+        CircEaseInOut,
+        CircEaseOutIn,
+        QuadEaseOut,
+        QuadEaseIn,
+        QuadEaseInOut,
+        QuadEaseOutIn,
+        SineEaseOut,
+        SineEaseIn,
+        SineEaseInOut,
+        SineEaseOutIn,
+        CubicEaseOut,
+        CubicEaseIn,
+        CubicEaseInOut,
+        CubicEaseOutIn,
+        QuartEaseOut,
+        QuartEaseIn,
+        QuartEaseInOut,
+        QuartEaseOutIn,
+        QuintEaseOut,
+        QuintEaseIn,
+        QuintEaseInOut,
+        QuintEaseOutIn,
+        ElasticEaseOut,
+        ElasticEaseIn,
+        ElasticEaseInOut,
+        ElasticEaseOutIn,
+        BounceEaseOut,
+        BounceEaseIn,
+        BounceEaseInOut,
+        BounceEaseOutIn,
+        BackEaseOut,
+        BackEaseIn,
+        BackEaseInOut,
+        BackEaseOutIn
+    }
+
+    public enum ColorChannels
+    {
+        A,
+        R,
+        G,
+        B
+    };
+}
