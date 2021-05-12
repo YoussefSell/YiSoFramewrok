@@ -49,5 +49,10 @@ namespace YiSoFramwork.Test
         {
             Navigator.MovePrevious();
         }
+
+        private void yiSoButton1_Click(object sender, EventArgs e)
+        {
+            yiSoAnimator1.Start();
+        }
     }
 }
